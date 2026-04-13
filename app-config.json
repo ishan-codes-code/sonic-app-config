@@ -2,6 +2,5 @@
   "latestVersion": "2.0.0",
   "minRequiredVersion": "2.0.0",
   "forceUpdate": true,
-  "updateUrl": "https://your-apk-link.com/app.apk",
   "message": "Welcome to the latest version 🚀"
 }
