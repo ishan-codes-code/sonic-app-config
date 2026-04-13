@@ -6,8 +6,8 @@ This repository hosts the remote configuration for the Sonic Music App. It is us
 
 The configuration is served via [jsDelivr](https://www.jsdelivr.com/) for low latency and high availability.
 
-**URL Template:**
-`https://cdn.jsdelivr.net/gh/<username>/sonic-app-config/app-config.json`
+**URL:**
+`https://cdn.jsdelivr.net/gh/ishan-codes-code/sonic-app-config/app-config.json`
 
 ## 📄 Configuration Structure
 
@@ -39,5 +39,5 @@ The configuration is served via [jsDelivr](https://www.jsdelivr.com/) for low la
 When fetching this configuration in your app, append a timestamp to bypass CDN or browser caching:
 
 ```javascript
-const response = await fetch(`https://cdn.jsdelivr.net/gh/<username>/sonic-app-config/app-config.json?t=${Date.now()}`);
+const response = await fetch(`https://cdn.jsdelivr.net/gh/ishan-codes-code/sonic-app-config/app-config.json?t=${Date.now()}`);
 ```
