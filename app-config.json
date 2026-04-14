@@ -1,7 +1,7 @@
 {
   "latestVersion": "1.2.1",
   "minRequiredVersion": "1.1.0",
-  "forceUpdate": false,
+  "forceUpdate": true,
   "updateUrl": "https://expo.dev/artifacts/eas/oLzHj1F6FqETL5XsAT9X2C.apk",
   "message": "Welcome to the latest version 🚀"
 }
